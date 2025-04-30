@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    {% load static %}
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Welcome, {{ user.username }}</h1>
+    <a href="/logout/">Logout</a>
+</body>
+</html>
